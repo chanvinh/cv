@@ -83,7 +83,7 @@ function App() {
               ISB Vietnam - IVC
             </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
-              FIS System (Full Stack) (Support Team)
+              Financial Information System (Full Stack) (Support Team)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> ASP .NET framework CORE 8, VueJS, SQL Server,
@@ -129,7 +129,7 @@ function App() {
               ISB Vietnam - IVC
             </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
-              PubCare System (Full Stack)
+              Public Health & Care System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> PHP, Laravel, JQuery, MySQL, Docker, Docker
@@ -175,7 +175,7 @@ function App() {
               ISB Vietnam - IVC
             </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
-              SMO System (Front End)
+              Smart Medical Officer System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> Google Apps Script(GAS), A5:SQL, JQuery, Cursor
@@ -219,7 +219,7 @@ function App() {
               ISB Vietnam - IVC
             </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
-              UCARO System (Front End)
+              University Admission & Registration System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> NextJs, Typescript, React Hook Form, Redux
@@ -269,7 +269,7 @@ function App() {
               ISB Vietnam - IVC
             </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
-              NEHOP System (Front End)
+              Hotel Management System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> Angular, CSS, HTML, PostgreSQL, Excel, VB.Net,
@@ -310,7 +310,7 @@ function App() {
               ISB Vietnam - IVC
             </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
-              KWN System (Front End)
+              Knowledge Management System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> PHP, HTML, JavaScript, JQuery, SASS,
@@ -353,7 +353,7 @@ function App() {
               ISB Vietnam - IVC
             </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
-              Private - Core Banking System (Front End)
+              Core Banking System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> TypeScript, Next.js, Redux Saga, Styled
