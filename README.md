@@ -1,46 +1,152 @@
-# Getting Started with Create React App
+# CV Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal CV/Resume website built with React and TypeScript to showcase professional experience, technical skills, education, certifications, and career achievements.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+* Responsive CV/Resume layout
+* Professional profile and career objective
+* Work experience timeline
+* Education and certifications
+* Technical skills overview
+* Clean and reusable component architecture
+* Easy customization for future updates
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Frontend
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* React.js
+* TypeScript
+* CSS3
 
-### `npm test`
+### Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Custom reusable UI components
 
-### `npm run build`
+  * Container
+  * Section
+  * Grid
+  * Flex
+  * Typography
+  * ListBox
+  * Spacer
+  * Separator
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```text
+src/
+├── components/
+│   ├── container/
+│   ├── flex/
+│   ├── grid/
+│   ├── listbox/
+│   ├── section/
+│   ├── spacer/
+│   ├── sperator/
+│   └── typography/
+│
+├── App.tsx
+├── App.css
+└── main.tsx
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+git clone <repository-url>
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Run the development server:
 
-## Learn More
+```bash
+npm run dev
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Build for production:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+## Resume Summary
+
+### Name
+
+Ung Chan Vinh
+
+### Position
+
+Software Developer
+
+### Experience
+
+3.5+ years of experience in Frontend and Full Stack Development.
+
+### Main Technologies
+
+* JavaScript
+* TypeScript
+* React.js
+* Next.js
+* Vue.js
+* React Native
+* Redux
+* Redux Toolkit
+* React Query
+* Zustand
+* React Hook Form
+* RESTful API
+* PostgreSQL
+* MySQL
+* SQL Server
+* Docker
+
+## Key Projects
+
+### Core Banking System
+
+* Developed and maintained banking management features.
+* Implemented new functionalities and fixed production issues.
+* Performed code reviews and mentored team members.
+
+### UCARO System
+
+* Built reusable React components.
+* Implemented business requirements using Next.js.
+* Wrote unit tests with Jest.
+
+### FIS System
+
+* Full Stack development using ASP.NET Core 8 and Vue.js.
+* Participated in requirement analysis, development, testing, and deployment.
+
+### PubCare System
+
+* Developed healthcare management modules using Laravel and MySQL.
+* Created technical documentation and QA testing.
+
+## Contact
+
+* Phone: 0703337127
+* Email: [chanvinh41@gmail.com](mailto:chanvinh41@gmail.com)
+* Location: Ho Chi Minh City, Vietnam
+
+## License
+
+This project is for personal portfolio and resume presentation purposes.
