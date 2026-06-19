@@ -38,7 +38,7 @@ function App() {
         <Typography type="level4" padding="5px 20px 0px">
           With over 3.5 years of experience building applications using
           languages such as{" "}
-          <b>HTML, SASS, JavaScript, TypeScript, ReactJs, NextJs, VueJs</b>.
+          <b>HTML5, CSS3, SASS, JavaScript, TypeScript, ReactJs, React Native, NextJs, VueJs</b>.
         </Typography>
         <Typography type="level4" padding="5px 20px 0px">
           My goal is to apply my skills and knowledge in a professional
@@ -418,11 +418,37 @@ function App() {
         </Grid>
         <Sperator />
         <Grid>
-          <Typography type="level3">Frameworks:</Typography>
+          <Typography type="level3">Frontend Frameworks:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              React.js (Hooks, Redux, Redux Toolkit, Zustand, React Query,
-              Formik, Yup), Next.js, Vue.js
+              React.js, Next.js, Vue.js
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid>
+          <Typography type="level3">State Management:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              Redux, Redux Toolkit, Zustand, React Query
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid>
+          <Typography type="level3">Form Libraries:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              React Hook Form, Formik, Yup
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid>
+          <Typography type="level3">Backend / API:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              RESTful API, Axios, Fetch API, JWT Authentication
             </Typography>
           </Flex>
         </Grid>
@@ -449,7 +475,7 @@ function App() {
           <Typography type="level3">Tools:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              Docker, Docker Compose
+              Docker, Docker Compose, Postman
             </Typography>
           </Flex>
         </Grid>
