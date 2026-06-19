@@ -491,7 +491,7 @@ function App() {
       </Section>
 
       <Section title="HOBBIES">
-        <Typography padding="10px" type="level4">
+        <Typography type="level4" padding="5px 20px 0px">
           Play sports and participate in activities both inside and outside the
           company.
         </Typography>
