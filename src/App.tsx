@@ -421,7 +421,7 @@ function App() {
           <Typography type="level3">Frontend Frameworks:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              React.js, Next.js, Vue.js
+              React.js, Next.js, Vue.js, React Native
             </Typography>
           </Flex>
         </Grid>
@@ -440,6 +440,15 @@ function App() {
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
               React Hook Form, Formik, Yup
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid>
+          <Typography type="level3">Testing:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              Jest, React Testing Library, Vitest, Unit Testing
             </Typography>
           </Flex>
         </Grid>
@@ -472,16 +481,34 @@ function App() {
         </Grid>
         <Sperator />
         <Grid>
-          <Typography type="level3">Tools:</Typography>
+          <Typography type="level3">AI & Productivity Tools:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              Docker, Docker Compose, Postman
+              ChatGPT, Cursor AI, GitHub Copilot, Gemini, Prompt Engineering
             </Typography>
           </Flex>
         </Grid>
         <Sperator />
         <Grid>
-          <Typography type="level3">Source Version Control:</Typography>
+          <Typography type="level3">DevOps & CI/CD:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              Docker, Docker Compose, GitLab CI/CD
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid>
+          <Typography type="level3">Tools:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              Postman, Figma
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid>
+          <Typography type="level3">Source Control:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
               Git, Gitlab
