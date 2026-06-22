@@ -39,10 +39,7 @@ function App() {
           Frontend Developer with over 3.5 years of experience building scalable web applications using <b>React.js, Next.js, TypeScript</b>, and modern frontend technologies.
         </Typography>
         <Typography type="level4" padding="5px 20px 0px">
-          Experienced in developing enterprise systems across banking, education, healthcare, and hotel management domains, with a strong focus on performance, maintainability, and user experience.
-        </Typography>
-        <Typography type="level4" padding="5px 20px 0px">
-          Skilled in component-based architecture, state management, API integration, and unit testing. Passionate about leveraging AI-assisted development tools such as <br>ChatGPT, Cursor AI, GitHub Copilot, and Gemini</br> to improve development efficiency and code quality.
+          Skilled in component-based architecture, state management, API integration, and unit testing. Passionate about leveraging AI-assisted development tools such as <b>ChatGPT, Cursor AI, GitHub Copilot, and Gemini</b> to improve development efficiency and code quality.
         </Typography>
         <Typography type="level4" padding="5px 20px 0px">
           A proactive team player with strong problem-solving, time management, and communication skills, capable of adapting quickly to new technologies and business requirements.
