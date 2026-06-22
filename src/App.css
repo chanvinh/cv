@@ -37,11 +37,3 @@ ul {
     padding: 0 20px;
   }
 }
-
-/* Desktop */
-@media (min-width: 992px) {
-  .background {
-    min-height: 100%;
-    border-radius: 0;
-  }
-}
