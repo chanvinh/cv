@@ -46,7 +46,7 @@ function App() {
           optimized experience.
         </Typography>
         <Typography type="level4" padding="5px 20px 0px">
-          Quick learning and researching new and hot trends’ technologies.
+          Quick to learn and adapt to emerging technologies, including AI-assisted development tools such as ChatGPT, GitHub Copilot, and Cursor AI, to improve code quality and development efficiency.
         </Typography>
         <Typography type="level4" padding="5px 20px 0px">
           Good at time management, problem-solving, and working under high
