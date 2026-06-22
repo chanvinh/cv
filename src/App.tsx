@@ -36,7 +36,7 @@ function App() {
 
       <Section title="GENERAL OBJECTIVE">
         <Typography type="level4" padding="5px 20px 0px">
-          Frontend Developer with over 3.5 years of experience building scalable web applications using <b>React.js, Next.js, TypeScript</b>, and modern frontend technologies.
+          Frontend Developer with over 3.5 years of experience building scalable web applications using <b>React.js, Next.js, React Native, TypeScript</b>, and modern frontend technologies.
         </Typography>
         <Typography type="level4" padding="5px 20px 0px">
           Skilled in component-based architecture, state management, API integration, and unit testing. Passionate about leveraging AI-assisted development tools such as <b>ChatGPT, Cursor AI, GitHub Copilot, and Gemini</b> to improve development efficiency and code quality.
