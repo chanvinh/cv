@@ -46,7 +46,7 @@ function App() {
           optimized experience.
         </Typography>
         <Typography type="level4" padding="5px 20px 0px">
-          Quick to learn and adapt to emerging technologies, including AI-assisted development tools such as Gemini, ChatGPT, GitHub Copilot, and Cursor AI, to improve code quality and development efficiency.
+          Quick to learn and adapt to emerging technologies, including AI-assisted development tools such as <b>Gemini, ChatGPT, GitHub Copilot, and Cursor AI</b>, to improve code quality and development efficiency.
         </Typography>
         <Typography type="level4" padding="5px 20px 0px">
           Good at time management, problem-solving, and working under high
