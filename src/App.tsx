@@ -156,15 +156,6 @@ function App() {
         </Grid>
         <Sperator />
         <Grid row>
-          <Typography type="level3">DevOps & CI/CD:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              Docker, Docker Compose, GitLab CI/CD
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid row>
           <Typography type="level3">Tools:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
