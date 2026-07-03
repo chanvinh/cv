@@ -119,22 +119,68 @@ Software Developer
 
 ## Key Projects
 
-### Core Banking System
+### Core Banking System (Frontend Developer)
 
-* Developed and maintained banking management features.
-* Implemented new functionalities and fixed production issues.
-* Performed code reviews and mentored team members.
+- Developed and maintained enterprise banking modules using React.js, Next.js, and TypeScript.
+- Built reusable UI components and integrated RESTful APIs for banking management features.
+- Implemented new functionalities, resolved production issues, and optimized application performance.
+- Wrote Jest unit tests to ensure code quality and application reliability.
+- Performed code reviews, collaborated with cross-functional teams, and mentored junior developers.
 
-### UCARO System
+---
 
-* Built reusable React components.
-* Implemented business requirements using Next.js.
-* Wrote unit tests with Jest.
+### University Admission & Registration System (Frontend Developer)
 
-### FIS System
+- Developed responsive web applications using Next.js, TypeScript, and React Hook Form.
+- Built reusable React components and implemented complex business workflows for the admission process.
+- Managed application state using Redux Toolkit and integrated RESTful APIs.
+- Implemented multilingual support (i18n) and comprehensive form validation.
+- Wrote Jest unit tests and collaborated closely with designers, backend developers, and QA engineers.
 
-* Full Stack development using ASP.NET Core 8 and Vue.js.
-* Participated in requirement analysis, development, testing, and deployment.
+---
+
+### Hotel Management System (Frontend Developer)
+
+- Developed hotel management modules using Angular based on business requirements.
+- Implemented user interfaces from detailed design specifications and maintained existing features.
+- Prepared technical documentation, including Detail Design and Unit Test documents.
+- Resolved production issues and collaborated with cross-functional teams throughout the development lifecycle.
+
+---
+
+### Knowledge Management System (Frontend Developer)
+
+- Developed administration modules using PHP, JavaScript, jQuery, and MySQL.
+- Implemented authentication, user management, and CRUD functionalities.
+- Migrated the application from PHP 5 to PHP 8 and improved system maintainability.
+- Optimized existing features and supported ongoing maintenance activities.
+
+---
+
+### Smart Medical Officer System (Frontend Developer)
+
+- Developed dashboards and reporting features using Google Apps Script and jQuery.
+- Implemented business logic for monitoring and analyzing medical activity data.
+- Prepared technical documentation and supported feature validation, testing, and deployment.
+- Worked directly with stakeholders to deliver business requirements.
+
+---
+
+### Public Health & Care System (Full Stack Developer)
+
+- Developed frontend and backend features using Laravel, PHP, MySQL, and jQuery.
+- Implemented patient management, appointment scheduling, and healthcare record modules.
+- Designed and optimized database queries to improve application performance.
+- Participated in testing, deployment, and client acceptance activities.
+
+---
+
+### Financial Information System (Full Stack Developer)
+
+- Developed full-stack enterprise applications using ASP.NET Core 8, Vue.js, and SQL Server.
+- Implemented inspection scheduling, checklist management, document upload, and digital signature features.
+- Participated in requirement analysis, system design, development, testing, and deployment.
+- Collaborated with clients to validate business requirements and ensure successful project delivery.
 
 ## Contact
 
