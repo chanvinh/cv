@@ -1,8 +1,17 @@
 .grid {
   display: grid;
-  grid-template-columns: 25% 75%;
-  gap: 30px;
+  grid-template-columns: 1fr;
+  gap: 12px;
   padding: 10px 20px;
+  align-items: center;
+}
+
+.gridRow {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  gap: 12px;
+  padding: 10px 20px;
+  align-items: center;
 }
 
 .header {
@@ -13,8 +22,11 @@
 /* Mobile */
 @media (max-width: 575px) {
   .grid {
+    padding: 8px 0;
+  }
+
+  .gridRow {
     grid-template-columns: 1fr;
-    gap: 12px;
     padding: 8px 0;
   }
 

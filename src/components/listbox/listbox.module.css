@@ -1,7 +1,7 @@
 .listbox {
   display: flex;
   gap: 20px;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .listbox > div:first-child {
@@ -21,6 +21,7 @@
   .listbox {
     flex-direction: column;
     gap: 2px;
+    align-items: flex-start;
   }
 
   .listbox > div:first-child {

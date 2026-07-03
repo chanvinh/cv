@@ -11,7 +11,7 @@ import Typography from "./components/typography/typography";
 function App() {
   return (
     <Container>
-      <Grid variant="header">
+      <Grid variant="header" row>
         <div className="background"></div>
         <Flex>
           <Typography>Ung Chan Vinh</Typography>
@@ -31,6 +31,16 @@ function App() {
               74 Tan Hung Street, District 5, Ho Chi Minh City
             </Typography>
           </ListBox>
+          <ListBox label="LinkedIn:" margin="8px 0px">
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              <a href="https://www.linkedin.com/in/ch%E1%BA%A5n-vinh-26b930215/">https://www.linkedin.com/in/ch%E1%BA%A5n-vinh-26b930215/</a>
+            </Typography>
+          </ListBox>
+          <ListBox label="Portfolio:" margin="8px 0px">
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              <a href="https://chanvinh.github.io/portfolio/">https://chanvinh.github.io/portfolio/</a>
+            </Typography>
+          </ListBox>
         </Flex>
       </Grid>
 
@@ -47,7 +57,7 @@ function App() {
       </Section>
 
       <Section title="EDUCATION">
-        <Grid>
+        <Grid row>
           <Typography type="level4">2018 - 04/2022</Typography>
           <Flex>
             <Typography type="level3" padding="3px 20px 0px 0px">
@@ -63,9 +73,118 @@ function App() {
         </Grid>
       </Section>
 
+      <Section title="SKILLS">
+        <Grid row>
+          <Typography type="level3">Programming Languages:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              JavaScript, TypeScript, HTML5, CSS3
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid row>
+          <Typography type="level3">Frontend Frameworks:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              React.js, Next.js, Vue.js, React Native
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid row>
+          <Typography type="level3">UI Frameworks:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              Bootstrap, Material UI, Tailwind CSS
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid row>
+          <Typography type="level3">State Management:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              Redux, Redux Toolkit, Zustand, React Query
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid row>
+          <Typography type="level3">Form Libraries:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              React Hook Form, Formik, Yup
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid row>
+          <Typography type="level3">Testing:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              Jest, React Testing Library, Vitest, Unit Testing
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid row>
+          <Typography type="level3">Backend / API:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              RESTful API, Axios, Fetch API, JWT Authentication
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid row>
+          <Typography type="level3">Database:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              PostgreSQL, SQL Server, MySQL
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid row>
+          <Typography type="level3">AI & Productivity Tools:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              ChatGPT, Cursor AI, GitHub Copilot, Gemini, Prompt Engineering
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid row>
+          <Typography type="level3">DevOps & CI/CD:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              Docker, Docker Compose, GitLab CI/CD
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid row>
+          <Typography type="level3">Tools:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              Postman, Figma
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid row>
+          <Typography type="level3">Source Control:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              Git, Gitlab
+            </Typography>
+          </Flex>
+        </Grid>
+      </Section>
+
       <Section title="EXPERIENCES">
         <Grid>
-          <Typography type="level3">04/2026 - 07/2026</Typography>
           <Flex>
             <Typography
               type="level3"
@@ -75,16 +194,12 @@ function App() {
               ISB Vietnam - IVC
             </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
-              Financial Information System (Full Stack) (Support Team)
+              Financial Information System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Tech stack:</b> ASP .NET framework CORE 8, VueJS, SQL Server,
-              Quarsar Build, Vitest, Postman, SCSS, Postman, Copilot.
+              <b>Tech stack:</b> ASP.NET Core 8, VueJS, SQL Server,
+              Quasar Build, Vitest, Postman, SCSS, Postman, Copilot.
             </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Team size:</b> 5
-            </Typography>
-            <Spacer height="15px" />
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Systems:</b>
               <ul>
@@ -98,12 +213,17 @@ function App() {
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Responsibilities:</b>
               <ul>
-                <li>Requirement gathering and understanding.</li>
-                <li>Develop and implement the system features.</li>
-                <li>Write the QA for the system features.</li>
+                <li>Developed frontend features using Vue.js and backend services with ASP.NET Core 8.</li>
+                <li>Implemented inspection scheduling, checklist management, document upload, and digital signature functionalities.</li>
+                <li>Designed and maintained SQL Server database structures and queries.</li>
                 <li>
-                  Deploy the system features and confirm the documentation with
-                  the client to finalize the system as per the client's request.
+                  Participated in requirement analysis and translated business requirements into technical solutions.
+                </li>
+                <li>
+                  Deployed application updates and supported user acceptance testing.
+                </li>
+                <li>
+                  Worked closely with clients to review documentation and finalize delivered functionalities.
                 </li>
               </ul>
             </Typography>
@@ -111,53 +231,6 @@ function App() {
         </Grid>
         <Sperator />
         <Grid>
-          <Typography type="level3">04/2026 - 07/2026</Typography>
-          <Flex>
-            <Typography
-              type="level3"
-              padding="3px 20px 0px 0px"
-              decoration="underline"
-            >
-              ISB Vietnam - IVC
-            </Typography>
-            <Typography type="level3" padding="3px 20px 0px 0px">
-              Public Health & Care System (Full Stack)
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Tech stack:</b> PHP, Laravel, JQuery, MySQL, Docker, Docker
-              Compose, Postman, Cursor AI.
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Team size:</b> 2
-            </Typography>
-            <Spacer height="15px" />
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Systems:</b>
-              <ul>
-                <li>Healthcare Management System (PHR/EHR).</li>
-                <li>Patient Management System</li>
-                <li>Appointment Scheduling System</li>
-                <li>Care Coordination System</li>
-                <li>Clinical Data Management System</li>
-              </ul>
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Responsibilities:</b>
-              <ul>
-                <li>Develop and implement the system features.</li>
-                <li>Write the documentation for the system features.</li>
-                <li>Write the QA for the system features.</li>
-                <li>
-                  Deploy the system features and confirm the documentation with
-                  the client to finalize the page as per the client's request.
-                </li>
-              </ul>
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid>
-          <Typography type="level3">01/2026 - 03/2026</Typography>
           <Flex>
             <Typography
               type="level3"
@@ -174,10 +247,6 @@ function App() {
               AI.
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Team size:</b> 2
-            </Typography>
-            <Spacer height="15px" />
-            <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Systems:</b>
               <ul>
                 <li>Manage and monitor doctor information activities.</li>
@@ -187,13 +256,15 @@ function App() {
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Responsibilities:</b>
               <ul>
-                <li>Develop and implement the system features.</li>
-                <li>Write the documentation for the system features.</li>
-                <li>Write the unit test for the system features.</li>
-                <li>Write the QA for the system features.</li>
+                <li>Developed management dashboards and reporting features using Google Apps Script and jQuery.</li>
+                <li>Implemented business logic for monitoring and analyzing medical activity data.</li>
+                <li>Created technical documentation and Unit Test documentation for implemented features.</li>
+                <li>Performed feature testing and QA validation before deployment.</li>
                 <li>
-                  Deploy the system features and confirm the documentation with
-                  the client to finalize the page as per the client's request.
+                  Supported deployment activities and confirmed completed features with clients.
+                </li>
+                <li>
+                  Worked directly with stakeholders to clarify requirements and improve system usability.
                 </li>
               </ul>
             </Typography>
@@ -201,7 +272,6 @@ function App() {
         </Grid>
         <Sperator />
         <Grid>
-          <Typography type="level3">05/2025 - 01/2026</Typography>
           <Flex>
             <Typography
               type="level3"
@@ -218,10 +288,6 @@ function App() {
               Toolkit, i18n, Jest.
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Team size:</b> 4
-            </Typography>
-            <Spacer height="15px" />
-            <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Systems:</b>
               <ul>
                 <li>Search and gather information about universities.</li>
@@ -237,11 +303,28 @@ function App() {
               <b>Responsibilities:</b>
               <ul>
                 <li>
-                  Design components, interfaces, write Jest tests, and write QA.
+                  Developed responsive web applications using Next.js and TypeScript.
                 </li>
                 <li>
-                  Deploy the system features and confirm the documentation with
-                  the client to finalize the page as per the client's request.
+                  Built dynamic forms using React Hook Form with comprehensive client-side validation.
+                </li>
+                <li>
+                  Managed application state using Redux Toolkit.
+                </li>
+                <li>
+                  Integrated RESTful APIs and implemented multilingual support using i18n.
+                </li>
+                <li>
+                  Designed reusable components to improve consistency and development efficiency.
+                </li>
+                <li>
+                  Wrote Jest unit tests to ensure code quality and maintainability.
+                </li>
+                <li>
+                  Participated in feature deployment and validated completed functionalities with clients.
+                </li>
+                <li>
+                  Collaborated with designers, backend developers, and QA engineers to deliver project milestones.
                 </li>
               </ul>
             </Typography>
@@ -249,9 +332,6 @@ function App() {
         </Grid>
         <Sperator />
         <Grid>
-          <Typography type="level3">
-            02/2025 — 05/2025 & 03/2026 — 04/2026
-          </Typography>
           <Flex>
             <Typography
               type="level3"
@@ -268,10 +348,6 @@ function App() {
               Java spring batch.
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Team size:</b> 14
-            </Typography>
-            <Spacer height="15px" />
-            <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Systems:</b>
               <ul>
                 <li>
@@ -283,16 +359,18 @@ function App() {
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Responsibilities:</b>
               <ul>
-                <li>Write the Detail Design document.</li>
-                <li>Write the Unit Test document.</li>
-                <li>Implemented clean and robust code following DD.</li>
+                <li>Developed hotel management modules using Angular based on business requirements.</li>
+                <li>Implemented user interfaces following detailed design documents.</li>
+                <li>Prepared Detail Design and Unit Test documentation for assigned features.</li>
+                <li>Maintained and enhanced existing functionalities while ensuring application stability.</li>
+                <li>Fixed defects identified during testing and production support.</li>
+                <li>Collaborated with developers, QA engineers, and business analysts throughout the project lifecycle.</li>
               </ul>
             </Typography>
           </Flex>
         </Grid>
         <Sperator />
         <Grid>
-          <Typography type="level3">01/2025 - 03/2025</Typography>
           <Flex>
             <Typography
               type="level3"
@@ -302,16 +380,12 @@ function App() {
               ISB Vietnam - IVC
             </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
-              Knowledge Management System (Front End)
+              Knowledge Management System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> PHP, HTML, JavaScript, JQuery, SASS,
               DataTableJs...
             </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Team size:</b> 2
-            </Typography>
-            <Spacer height="15px" />
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Systems:</b>
               <ul>
@@ -323,19 +397,20 @@ function App() {
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Responsibilities:</b>
               <ul>
-                <li>Create admin, login, and management pages.</li>
+                <li>Developed administration modules using PHP, JavaScript, jQuery, and HTML.</li>
                 <li>
-                  Write management functions for login and CRUD operations in
-                  the management page.
+                  Implemented authentication, user management, and CRUD functionalities for administrators.
                 </li>
-                <li>Upgrade PHP version from 5.0 to 8.0.</li>
+                <li>Enhanced existing features and maintained legacy source code.</li>
+                <li>Upgraded the application from PHP 5 to PHP 8 while ensuring backward compatibility.</li>
+                <li>Optimized SQL queries and improved application performance.</li>
+                <li>Worked closely with team members to analyze requirements and deliver requested features.</li>
               </ul>
             </Typography>
           </Flex>
         </Grid>
         <Sperator />
         <Grid>
-          <Typography type="level3">05/2022 - 12/2024</Typography>
           <Flex>
             <Typography
               type="level3"
@@ -349,12 +424,8 @@ function App() {
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> TypeScript, Next.js, Redux Saga, Styled
-              Component, i18n, Jest, ReactJs
+              Components, i18n, Jest, ReactJs
             </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Team size:</b> 14
-            </Typography>
-            <Spacer height="15px" />
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Systems:</b>
               <ul>
@@ -368,18 +439,30 @@ function App() {
               <b>Responsibilities:</b>
               <ul>
                 <li>
-                  Implement new features, improve code, and x issues as per
-                  client requests.
+                  Developed and maintained enterprise banking modules using React.js, Next.js, and TypeScript.
                 </li>
                 <li>
-                  Support colleagues, identify solutions, and resolve issues
-                  arising during the work process.
+                  Built reusable and scalable UI components following the project's design system.
                 </li>
-                <li>Develop tools to enhance work e ciency.</li>
-                <li>Review code and assist other team members.</li>
+                <li>Integrated RESTful APIs and handled asynchronous data using Redux Saga.</li>
+                <li>Implemented new features and enhanced existing functionalities based on business requirements.</li>
                 <li>
-                  Additionally, con rm features, design documentation, and
-                  correct any errors in the documentation for the client.
+                  Wrote comprehensive Jest unit tests to ensure application reliability and maintainability.
+                </li>
+                <li>
+                  Participated in code reviews and shared technical knowledge with team members.
+                </li>
+                <li>
+                  Investigated and resolved production issues while optimizing application performance.
+                </li>
+                <li>
+                  Developed internal tools to improve development efficiency and team productivity.
+                </li>
+                <li>
+                  Collaborated closely with backend developers, QA engineers, and business analysts throughout the development lifecycle.
+                </li>
+                <li>
+                  Reviewed design documents and validated implemented features before client delivery.
                 </li>
               </ul>
             </Typography>
@@ -392,118 +475,8 @@ function App() {
           <Typography type="level3">2022:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              B1 English Certi cate (HUTECH - Ho Chi Minh City University of
+              B1 English Certificate (HUTECH - Ho Chi Minh City University of
               Technology)
-            </Typography>
-          </Flex>
-        </Grid>
-      </Section>
-
-      <Section title="SKILLS">
-        <Grid>
-          <Typography type="level3">Programming Languages:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              JavaScript, TypeScript, HTML5, CSS3
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid>
-          <Typography type="level3">Frontend Frameworks:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              React.js, Next.js, Vue.js, React Native
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid>
-          <Typography type="level3">State Management:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              Redux, Redux Toolkit, Zustand, React Query
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid>
-          <Typography type="level3">Form Libraries:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              React Hook Form, Formik, Yup
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid>
-          <Typography type="level3">Testing:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              Jest, React Testing Library, Vitest, Unit Testing
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid>
-          <Typography type="level3">Backend / API:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              RESTful API, Axios, Fetch API, JWT Authentication
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid>
-          <Typography type="level3">Database:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              PostgreSQL, SQL Server, MySQL
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid>
-          <Typography type="level3">UI Frameworks:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              Bootstrap, Material UI, Tailwind CSS
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid>
-          <Typography type="level3">AI & Productivity Tools:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              ChatGPT, Cursor AI, GitHub Copilot, Gemini, Prompt Engineering
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid>
-          <Typography type="level3">DevOps & CI/CD:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              Docker, Docker Compose, GitLab CI/CD
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid>
-          <Typography type="level3">Tools:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              Postman, Figma
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid>
-          <Typography type="level3">Source Control:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              Git, Gitlab
             </Typography>
           </Flex>
         </Grid>
@@ -511,8 +484,7 @@ function App() {
 
       <Section title="HOBBIES">
         <Typography type="level4" padding="5px 20px 0px">
-          Play sports and participate in activities both inside and outside the
-          company.
+          Continuous learning, Building personal projects, Exploring AI-assisted software development, Sports.
         </Typography>
       </Section>
     </Container>
