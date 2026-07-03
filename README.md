@@ -166,15 +166,6 @@ Software Developer
 
 ---
 
-### Public Health & Care System (Full Stack Developer)
-
-- Developed frontend and backend features using Laravel, PHP, MySQL, and jQuery.
-- Implemented patient management, appointment scheduling, and healthcare record modules.
-- Designed and optimized database queries to improve application performance.
-- Participated in testing, deployment, and client acceptance activities.
-
----
-
 ### Financial Information System (Full Stack Developer)
 
 - Developed full-stack enterprise applications using ASP.NET Core 8, Vue.js, and SQL Server.
