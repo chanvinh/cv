@@ -189,7 +189,7 @@ function App() {
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> ASP.NET Core 8, VueJS, SQL Server,
-              Quasar Build, Vitest, Postman, SCSS, Postman, Copilot.
+              Quasar Build, Vitest, Postman, SCSS, Copilot.
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Systems:</b>
