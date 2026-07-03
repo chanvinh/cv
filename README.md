@@ -136,11 +136,6 @@ Software Developer
 * Full Stack development using ASP.NET Core 8 and Vue.js.
 * Participated in requirement analysis, development, testing, and deployment.
 
-### PubCare System
-
-* Developed healthcare management modules using Laravel and MySQL.
-* Created technical documentation and QA testing.
-
 ## Contact
 
 * Phone: 0703337127
