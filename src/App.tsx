@@ -4,7 +4,6 @@ import Flex from "./components/flex/flex";
 import Grid from "./components/grid/grid";
 import ListBox from "./components/listbox/lisbox";
 import Section from "./components/section/section";
-import Spacer from "./components/spacer/spacer";
 import Sperator from "./components/sperator/sperator";
 import Typography from "./components/typography/typography";
 
