@@ -301,18 +301,6 @@ function App() {
         </Grid>
       </Section>
 
-      <Section title="CERTIFICATION">
-        <Grid>
-          <Typography type="level3">2022:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              B1 English Certificate (HUTECH - Ho Chi Minh City University of
-              Technology)
-            </Typography>
-          </Flex>
-        </Grid>
-      </Section>
-
       <Section title="HOBBIES">
         <Typography type="level4" padding="5px 20px 0px">
           Continuous learning, Building personal projects, Exploring AI-assisted software development, Sports.
