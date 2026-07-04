@@ -6,6 +6,7 @@ interface PropsTypography {
   decoration?: string;
   padding?: string;
   children?: React.ReactNode;
+  textTransform?: any;
 }
 
 const PADDING_CLASSES: Record<string, string> = {
@@ -14,7 +15,7 @@ const PADDING_CLASSES: Record<string, string> = {
   "10px": styles.padHobby,
 };
 
-const Typography = ({ type = 'level1', children, padding, decoration }: Readonly<PropsTypography>) => {
+const Typography = ({ type = 'level1', children, padding, decoration, textTransform }: Readonly<PropsTypography>) => {
   const padClass = padding ? PADDING_CLASSES[padding] : undefined;
 
   return (
@@ -22,6 +23,7 @@ const Typography = ({ type = 'level1', children, padding, decoration }: Readonly
       className={[styles[type], padClass].filter(Boolean).join(" ")}
       style={{
         textDecoration: decoration,
+        textTransform: textTransform,
         ...(!padClass && padding ? { padding } : {}),
       }}
     >

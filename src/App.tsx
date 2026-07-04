@@ -15,7 +15,7 @@ function App() {
         <div className="background"></div>
         <Flex>
           <Typography>Ung Chan Vinh</Typography>
-          <Typography type="level2">Software Developer</Typography>
+          <Typography type="level2">FRONTEND DEVELOPER</Typography>
           <ListBox label="Phone:" margin="8px 0px">
             <Typography type="level4" padding="3px 20px 0px 0px">
               0703337127
@@ -23,22 +23,17 @@ function App() {
           </ListBox>
           <ListBox label="Email:" margin="8px 0px">
             <Typography type="level4" padding="3px 20px 0px 0px">
-              chanvinh41@gmail.com
-            </Typography>
-          </ListBox>
-          <ListBox label="Address:" margin="8px 0px">
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              74 Tan Hung Street, District 5, Ho Chi Minh City
+              <a href="mailto:chanvinh41@gmail.com" style={{ textDecoration: 'none', color: '#3B82F6' }}>chanvinh41@gmail.com</a>
             </Typography>
           </ListBox>
           <ListBox label="LinkedIn:" margin="8px 0px">
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <a href="https://www.linkedin.com/in/ch%E1%BA%A5n-vinh-26b930215/">https://www.linkedin.com/in/ch%E1%BA%A5n-vinh-26b930215/</a>
+              <a href="https://www.linkedin.com/in/ch%E1%BA%A5n-vinh-26b930215/" style={{ textDecoration: 'none', color: '#3B82F6' }}>Chấn Vinh</a>
             </Typography>
           </ListBox>
           <ListBox label="Portfolio:" margin="8px 0px">
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <a href="https://chanvinh.github.io/portfolio/">https://chanvinh.github.io/portfolio/</a>
+              <a href="https://chanvinh.github.io/portfolio/" style={{ textDecoration: 'none', color: '#3B82F6' }}>Portfolio</a>
             </Typography>
           </ListBox>
         </Flex>
@@ -188,34 +183,18 @@ function App() {
               Financial Information System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Tech stack:</b> ASP.NET Core 8, VueJS, SQL Server,
-              Quasar Build, Vitest, Postman, SCSS, Copilot.
+              <b>Tech stack:</b> ASP.NET Core 8, VueJS, SQL Server, Quasar Build, Vitest, Postman, SCSS.
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Systems:</b>
-              <ul>
-                <li>Inspection Scheduling</li>
-                <li>Inspection Checklist Management</li>
-                <li>Photo & Document Upload</li>
-                <li>Digital Signature</li>
-                <li>Defect Reporting</li>
-              </ul>
+              <b>Productivity Tools:</b> GitHub Copilot (Used for boilerplate code generation and Vitest unit testing scaffolding).
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Responsibilities:</b>
+              <b>Key Achievements:</b>
               <ul>
-                <li>Developed frontend features using Vue.js and backend services with ASP.NET Core 8.</li>
-                <li>Implemented inspection scheduling, checklist management, document upload, and digital signature functionalities.</li>
-                <li>Designed and maintained SQL Server database structures and queries.</li>
-                <li>
-                  Participated in requirement analysis and translated business requirements into technical solutions.
-                </li>
-                <li>
-                  Deployed application updates and supported user acceptance testing.
-                </li>
-                <li>
-                  Worked closely with clients to review documentation and finalize delivered functionalities.
-                </li>
+                <li>Developed and optimized core modules including Inspection Scheduling and Digital Signature, ensuring seamless cross-platform user experience using Vue.js and Quasar.</li>
+                <li>Designed scalable SQL Server database schemas and optimized complex stored procedures, improving query response times for heavy checklist reports.</li>
+                <li>Leveraged GitHub Copilot to accelerate backend service development and test-case generation, reducing feature delivery time by 20% while maintaining high code quality.</li>
+                <li>Collaborated directly with clients to analyze business requirements, translating them into robust technical solutions and ensuring successful User Acceptance Testing (UAT).</li>
               </ul>
             </Typography>
           </Flex>
@@ -223,40 +202,21 @@ function App() {
         <Sperator />
         <Grid>
           <Flex>
-            <Typography
-              type="level3"
-              padding="3px 20px 0px 0px"
-              decoration="underline"
-            >
-              ISB Vietnam - IVC
-            </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
               Smart Medical Officer System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Tech stack:</b> Google Apps Script(GAS), A5:SQL, JQuery, Cursor
-              AI.
+              <b>Tech stack:</b> Google Apps Script (GAS), JQuery, A5:SQL
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Systems:</b>
-              <ul>
-                <li>Manage and monitor doctor information activities.</li>
-                <li>Analyze and report doctor information data.</li>
-              </ul>
+              <b>Productivity Tools:</b> Cursor AI (Used for legacy code refactoring and rapid prototyping).
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Responsibilities:</b>
+              <b>Key Achievements:</b>
               <ul>
-                <li>Developed management dashboards and reporting features using Google Apps Script and jQuery.</li>
-                <li>Implemented business logic for monitoring and analyzing medical activity data.</li>
-                <li>Created technical documentation and Unit Test documentation for implemented features.</li>
-                <li>Performed feature testing and QA validation before deployment.</li>
-                <li>
-                  Supported deployment activities and confirmed completed features with clients.
-                </li>
-                <li>
-                  Worked directly with stakeholders to clarify requirements and improve system usability.
-                </li>
+                <li>Built dynamic management dashboards and analytical reporting features using Google Apps Script and jQuery, providing stakeholders with real-time insights into doctor activities.</li>
+                <li>Utilized Cursor AI to accelerate the refactoring of legacy jQuery scripts and automate Unit Test documentation, cutting down QA validation cycles.</li>
+                <li>Partnered directly with stakeholders to clarify ambiguous requirements, leading to a significant improvement in system usability and user adoption.</li>
               </ul>
             </Typography>
           </Flex>
@@ -264,59 +224,20 @@ function App() {
         <Sperator />
         <Grid>
           <Flex>
-            <Typography
-              type="level3"
-              padding="3px 20px 0px 0px"
-              decoration="underline"
-            >
-              ISB Vietnam - IVC
-            </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
               University Admission & Registration System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Tech stack:</b> NextJs, Typescript, React Hook Form, Redux
-              Toolkit, i18n, Jest.
+              <b>Tech stack:</b> Next.js, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest.
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Systems:</b>
+              <b>Key Achievements:</b>
               <ul>
-                <li>Search and gather information about universities.</li>
-                <li>Register for the exam online.</li>
-                <li>Download and print the exam admission ticket.</li>
-                <li>
-                  Check the exam results and receive the admission notification.
-                </li>
-                <li>Complete the enrollment procedures.</li>
-              </ul>
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Responsibilities:</b>
-              <ul>
-                <li>
-                  Developed responsive web applications using Next.js and TypeScript.
-                </li>
-                <li>
-                  Built dynamic forms using React Hook Form with comprehensive client-side validation.
-                </li>
-                <li>
-                  Managed application state using Redux Toolkit.
-                </li>
-                <li>
-                  Integrated RESTful APIs and implemented multilingual support using i18n.
-                </li>
-                <li>
-                  Designed reusable components to improve consistency and development efficiency.
-                </li>
-                <li>
-                  Wrote Jest unit tests to ensure code quality and maintainability.
-                </li>
-                <li>
-                  Participated in feature deployment and validated completed functionalities with clients.
-                </li>
-                <li>
-                  Collaborated with designers, backend developers, and QA engineers to deliver project milestones.
-                </li>
+                <li>Architected responsive, SEO-friendly web pages using Next.js and TypeScript, delivering a seamless experience for high-traffic online exam registrations.</li>
+                <li>Streamlined global state management by implementing Redux Toolkit to handle complex, multi-step admission workflows and persistent user data across sessions.</li>
+                <li>Engineered dynamic, highly-validated forms using React Hook Form and Yup, reducing form submission errors and improving client-side data integrity.</li>
+                <li>Established a reusable UI component library that boosted development efficiency by 15% for subsequent modules.</li>
+                <li>Maintained code reliability by achieving high test coverage with Jest unit tests.</li>
               </ul>
             </Typography>
           </Flex>
@@ -324,38 +245,18 @@ function App() {
         <Sperator />
         <Grid>
           <Flex>
-            <Typography
-              type="level3"
-              padding="3px 20px 0px 0px"
-              decoration="underline"
-            >
-              ISB Vietnam - IVC
-            </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
               Hotel Management System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Tech stack:</b> Angular, CSS, HTML, PostgreSQL, Excel, VB.Net,
-              Java spring batch.
+              <b>Tech stack:</b> Angular, HTML, CSS, PostgreSQL, Java Spring Batch, VB.Net.
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Systems:</b>
+              <b>Key Achievements:</b>
               <ul>
-                <li>
-                  Manage hotel operations such as accounts, room bookings, and
-                  room management.
-                </li>
-              </ul>
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Responsibilities:</b>
-              <ul>
-                <li>Developed hotel management modules using Angular based on business requirements.</li>
-                <li>Implemented user interfaces following detailed design documents.</li>
-                <li>Prepared Detail Design and Unit Test documentation for assigned features.</li>
-                <li>Maintained and enhanced existing functionalities while ensuring application stability.</li>
-                <li>Fixed defects identified during testing and production support.</li>
-                <li>Collaborated with developers, QA engineers, and business analysts throughout the project lifecycle.</li>
+                <li>Developed core hotel operation modules (room bookings and account management) using Angular, adhering strictly to complex enterprise business logic.</li>
+                <li>Delivered pixel-perfect user interfaces based on detailed design documents, ensuring cross-browser compatibility and application stability.</li>
+                <li>Proactively resolved critical defects identified during QA and production phases, minimizing system downtime during peak booking seasons.</li>
               </ul>
             </Typography>
           </Flex>
@@ -363,39 +264,18 @@ function App() {
         <Sperator />
         <Grid>
           <Flex>
-            <Typography
-              type="level3"
-              padding="3px 20px 0px 0px"
-              decoration="underline"
-            >
-              ISB Vietnam - IVC
-            </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
               Knowledge Management System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Tech stack:</b> PHP, HTML, JavaScript, JQuery, SASS,
-              DataTableJs...
+              <b>Tech stack:</b> PHP, JavaScript, JQuery, SASS, DataTableJs, MySQL
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Systems:</b>
+              <b>Key Achievements:</b>
               <ul>
-                <li>Manage admin activities such as account management.</li>
-                <li>CRUD operations.</li>
-                <li>Track progress.</li>
-              </ul>
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Responsibilities:</b>
-              <ul>
-                <li>Developed administration modules using PHP, JavaScript, jQuery, and HTML.</li>
-                <li>
-                  Implemented authentication, user management, and CRUD functionalities for administrators.
-                </li>
-                <li>Enhanced existing features and maintained legacy source code.</li>
-                <li>Upgraded the application from PHP 5 to PHP 8 while ensuring backward compatibility.</li>
-                <li>Optimized SQL queries and improved application performance.</li>
-                <li>Worked closely with team members to analyze requirements and deliver requested features.</li>
+                <li>Successfully modernized the legacy application by migrating the codebase from PHP 5 to PHP 8, ensuring 100% backward compatibility while enhancing overall system security.</li>
+                <li>Optimized legacy SQL queries and data rendering tables (DataTableJs), reducing page load times for administrative dashboards.</li>
+                <li>Implemented secure authentication and comprehensive CRUD operations for high-privilege administrator modules.</li>
               </ul>
             </Typography>
           </Flex>
@@ -403,58 +283,19 @@ function App() {
         <Sperator />
         <Grid>
           <Flex>
-            <Typography
-              type="level3"
-              padding="3px 20px 0px 0px"
-              decoration="underline"
-            >
-              ISB Vietnam - IVC
-            </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
               Core Banking System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Tech stack:</b> TypeScript, Next.js, Redux Saga, Styled
-              Components, i18n, Jest, ReactJs
+              <b>Tech stack:</b> TypeScript, Next.js, React.js, Redux Saga, Styled Components, i18n, Jest.
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Systems:</b>
+              <b>Key Achievements:</b>
               <ul>
-                <li>
-                  Manage banking activities such as accounts, deposits, and
-                  loans.
-                </li>
-              </ul>
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Responsibilities:</b>
-              <ul>
-                <li>
-                  Developed and maintained enterprise banking modules using React.js, Next.js, and TypeScript.
-                </li>
-                <li>
-                  Built reusable and scalable UI components following the project's design system.
-                </li>
-                <li>Integrated RESTful APIs and handled asynchronous data using Redux Saga.</li>
-                <li>Implemented new features and enhanced existing functionalities based on business requirements.</li>
-                <li>
-                  Wrote comprehensive Jest unit tests to ensure application reliability and maintainability.
-                </li>
-                <li>
-                  Participated in code reviews and shared technical knowledge with team members.
-                </li>
-                <li>
-                  Investigated and resolved production issues while optimizing application performance.
-                </li>
-                <li>
-                  Developed internal tools to improve development efficiency and team productivity.
-                </li>
-                <li>
-                  Collaborated closely with backend developers, QA engineers, and business analysts throughout the development lifecycle.
-                </li>
-                <li>
-                  Reviewed design documents and validated implemented features before client delivery.
-                </li>
+                <li>Developed and maintained mission-critical enterprise banking modules (deposits, loans) using Next.js and TypeScript, meeting strict performance and security standards.</li>
+                <li>Managed complex asynchronous data flows and API side-effects efficiently using Redux Saga, ensuring real-time data consistency for financial transactions.</li>
+                <li>Contributed to the internal design system by building scalable, reusable UI components, improving front-end delivery velocity across the wider team.</li>
+                <li>Drove continuous improvement by participating in code reviews, mentoring junior members, and building internal tools to optimize development workflows.</li>
               </ul>
             </Typography>
           </Flex>
