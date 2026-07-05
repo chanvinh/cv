@@ -283,7 +283,7 @@ function App() {
         <Grid>
           <Flex>
             <Typography type="level3" padding="3px 20px 0px 0px">
-              Core Banking System (Front End)
+              Banking Transaction System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> TypeScript, Next.js, React.js, Redux Saga, Styled Components, i18n, Jest.
