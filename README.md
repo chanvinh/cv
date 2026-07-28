@@ -4,34 +4,33 @@ A personal CV/Resume website built with React and TypeScript to showcase profess
 
 ## Features
 
-* Responsive CV/Resume layout
-* Professional profile and career objective
-* Work experience timeline
-* Education and certifications
-* Technical skills overview
-* Clean and reusable component architecture
-* Easy customization for future updates
+- Responsive CV/Resume layout
+- Professional profile and career objective
+- Work experience timeline
+- Education and certifications
+- Technical skills overview
+- Clean and reusable component architecture
+- Easy customization for future updates
 
 ## Tech Stack
 
 ### Frontend
 
-* React.js
-* TypeScript
-* CSS3
+- React.js
+- TypeScript
+- CSS3
 
 ### Components
 
-* Custom reusable UI components
-
-  * Container
-  * Section
-  * Grid
-  * Flex
-  * Typography
-  * ListBox
-  * Spacer
-  * Separator
+- Custom reusable UI components
+  - Container
+  - Section
+  - Grid
+  - Flex
+  - Typography
+  - ListBox
+  - Spacer
+  - Separator
 
 ## Project Structure
 
@@ -96,26 +95,26 @@ Software Developer
 
 ### Experience
 
-3.5+ years of experience in Frontend and Full Stack Development.
+4+ years of experience in Frontend and Full Stack Development.
 
 ### Main Technologies
 
-* JavaScript
-* TypeScript
-* React.js
-* Next.js
-* Vue.js
-* React Native
-* Redux
-* Redux Toolkit
-* React Query
-* Zustand
-* React Hook Form
-* RESTful API
-* PostgreSQL
-* MySQL
-* SQL Server
-* Docker
+- JavaScript
+- TypeScript
+- React.js
+- Next.js
+- Vue.js
+- React Native
+- Redux
+- Redux Toolkit
+- React Query
+- Zustand
+- React Hook Form
+- RESTful API
+- PostgreSQL
+- MySQL
+- SQL Server
+- Docker
 
 ## Key Projects
 
@@ -175,9 +174,9 @@ Software Developer
 
 ## Contact
 
-* Phone: 0703337127
-* Email: [chanvinh41@gmail.com](mailto:chanvinh41@gmail.com)
-* Location: Ho Chi Minh City, Vietnam
+- Phone: 0703337127
+- Email: [chanvinh41@gmail.com](mailto:chanvinh41@gmail.com)
+- Location: Ho Chi Minh City, Vietnam
 
 ## License
 
