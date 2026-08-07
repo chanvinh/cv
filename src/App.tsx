@@ -27,7 +27,7 @@ function App() {
           </ListBox>
           <ListBox label="LinkedIn:" margin="8px 0px">
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <a href="https://www.linkedin.com/in/ch%E1%BA%A5n-vinh-26b930215/" style={{ textDecoration: 'none', color: '#3B82F6' }}>Chấn Vinh</a>
+              <a href="https://www.linkedin.com/in/ung-ch%E1%BA%A5n-vinh-26b930215/" style={{ textDecoration: 'none', color: '#3B82F6' }}>Chấn Vinh</a>
             </Typography>
           </ListBox>
           <ListBox label="Portfolio:" margin="8px 0px">
