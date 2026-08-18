@@ -14,7 +14,8 @@ function App() {
         <div className="background"></div>
         <Flex>
           <Typography>Ung Chan Vinh</Typography>
-          <Typography type="level2">FRONTEND DEVELOPER</Typography>
+          <Typography type="level2">FULL STACK DEVELOPER (React.js | Next.js | TypeScript |
+            ASP.NET Core | Laravel)</Typography>
           <ListBox label="Phone:" margin="8px 0px">
             <Typography type="level4" padding="3px 20px 0px 0px">
               0703337127
@@ -27,7 +28,7 @@ function App() {
           </ListBox>
           <ListBox label="LinkedIn:" margin="8px 0px">
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <a href="https://www.linkedin.com/in/ung-ch%E1%BA%A5n-vinh-26b930215/" style={{ textDecoration: 'none', color: '#3B82F6' }}>Chấn Vinh</a>
+              <a href="https://www.linkedin.com/in/ung-chan-vinh-26b930215/" style={{ textDecoration: 'none', color: '#3B82F6' }}>Chấn Vinh</a>
             </Typography>
           </ListBox>
           <ListBox label="Portfolio:" margin="8px 0px">
@@ -38,15 +39,13 @@ function App() {
         </Flex>
       </Grid>
 
-      <Section title="GENERAL OBJECTIVE">
+      <Section title="PROFESSIONAL SUMMARY">
         <Typography type="level4" padding="5px 20px 0px">
-          Frontend Developer with over 4 years of experience building scalable web applications using <b>React.js, Next.js, React Native, TypeScript</b>, and modern frontend technologies.
-        </Typography>
-        <Typography type="level4" padding="5px 20px 0px">
-          Skilled in component-based architecture, state management, API integration, and unit testing. Passionate about leveraging AI-assisted development tools such as <b>ChatGPT, Cursor AI, GitHub Copilot, and Gemini</b> to improve development efficiency and code quality.
-        </Typography>
-        <Typography type="level4" padding="5px 20px 0px">
-          A proactive team player with strong problem-solving, time management, and communication skills, capable of adapting quickly to new technologies and business requirements.
+          Full Stack Developer with 4+ years of experience building enterprise web applications, with strong expertise in frontend
+          development using <b>React.js, Next.js, TypeScript</b>, and <b>JavaScript</b>. Experienced in developing scalable UI architectures, state
+          management, API integration, automated testing, and backend services using ASP.NET Core and PHP Laravel. Worked across
+          banking, education, healthcare, financial information, and business management systems, collaborating with cross-functional
+          teams and clients to deliver production-ready solutions.
         </Typography>
       </Section>
 
@@ -69,28 +68,19 @@ function App() {
 
       <Section title="SKILLS">
         <Grid row>
-          <Typography type="level3">Programming Languages:</Typography>
+          <Typography type="level3">Languages:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              JavaScript, TypeScript, HTML5, CSS3
+              JavaScript, TypeScript, HTML5, CSS3, SQL
             </Typography>
           </Flex>
         </Grid>
         <Sperator />
         <Grid row>
-          <Typography type="level3">Frontend Frameworks:</Typography>
+          <Typography type="level3">Frontend:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              React.js, Next.js, Vue.js, React Native
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid row>
-          <Typography type="level3">UI Frameworks:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              Bootstrap, Material UI, Tailwind CSS
+              React.js, Next.js, Vue.js, Angular, React Native
             </Typography>
           </Flex>
         </Grid>
@@ -99,34 +89,26 @@ function App() {
           <Typography type="level3">State Management:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              Redux, Redux Toolkit, Zustand, React Query
+              Redux Toolkit, Redux Saga, Zustand, React Query
             </Typography>
           </Flex>
         </Grid>
         <Sperator />
         <Grid row>
-          <Typography type="level3">Form Libraries:</Typography>
+          <Typography type="level3">UI & Forms:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              React Hook Form, Formik, Yup
+              Tailwind CSS, Material UI, Bootstrap, React Hook Form,
+              Formik, Yup
             </Typography>
           </Flex>
         </Grid>
         <Sperator />
         <Grid row>
-          <Typography type="level3">Testing:</Typography>
+          <Typography type="level3">Backend:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              Jest, React Testing Library, Vitest, Unit Testing
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid row>
-          <Typography type="level3">Backend / API:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              RESTful API, Axios, Fetch API, JWT Authentication
+              ASP.NET Core, PHP Laravel, RESTful API, JWT Authentication
             </Typography>
           </Flex>
         </Grid>
@@ -141,34 +123,25 @@ function App() {
         </Grid>
         <Sperator />
         <Grid row>
-          <Typography type="level3">AI & Productivity Tools:</Typography>
+          <Typography type="level3">Testing:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              ChatGPT, Cursor AI, GitHub Copilot, Gemini, Prompt Engineering
+              Jest, React Testing Library, Vitest, Unit Testing
             </Typography>
           </Flex>
         </Grid>
         <Sperator />
         <Grid row>
-          <Typography type="level3">Tools:</Typography>
+          <Typography type="level3">Development Tools:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              Postman, Figma
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid row>
-          <Typography type="level3">Source Control:</Typography>
-          <Flex>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              Git, Gitlab
+              Git, GitLab, Docker, Postman, Figma, GitHub Copilot, Cursor AI
             </Typography>
           </Flex>
         </Grid>
       </Section>
 
-      <Section title="EXPERIENCES">
+      <Section title="WORK EXPERIENCE">
         <Grid>
           <Flex>
             <Typography
@@ -179,13 +152,99 @@ function App() {
               ISB Vietnam - IVC
             </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
+              Banking Transaction System (Front End)
+            </Typography>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              <b>May 2022 – September 2024 | Team Size: 15</b>
+            </Typography>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              <b>Tech stack:</b> TypeScript, Next.js, React.js, Redux Saga, Styled Components, i18n, Jest.
+            </Typography>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              <ul>
+                <li>Developed and maintained mission-critical banking modules, including deposit and loan
+                  workflows, using Next.js, React.js, and TypeScript.
+                </li>
+                <li>Implemented complex asynchronous data flows and API side effects using Redux Saga
+                  to support financial transaction workflows.
+                </li>
+                <li>Built reusable and scalable UI components as part of the internal design system,
+                  improving consistency and development efficiency across the team.
+                </li>
+                <li> Participated in code reviews and mentored junior developers to improve code quality
+                  and development practices.
+                </li>
+                <li> Contributed to internal development tools and workflow improvements to increase
+                  frontend development efficiency.
+                </li>
+              </ul>
+            </Typography>
+          </Flex>
+        </Grid>
+
+        <Sperator />
+        <Grid>
+          <Flex>
+            <Typography type="level3" padding="3px 20px 0px 0px">
+              University Admission & Registration System (Front End)
+            </Typography>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              <b>March 2025 – January 2026 | Team Size: 10</b>
+            </Typography>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              <b>Tech stack:</b> Next.js, React.js, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest.
+            </Typography>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              <ul>
+                <li> Architected responsive and SEO-friendly admission and registration workflows using
+                  Next.js, TypeScript, and Redux Toolkit, supporting complex multi-step processes and
+                  persistent user state.
+                </li>
+                <li>Built reusable, highly validated form and UI components using React Hook Form, Yup,
+                  and TypeScript, improving development efficiency by 15% across subsequent modules
+                  while reducing form submission errors.
+                </li>
+                <li>Maintained application reliability through Jest unit testing, reusable component
+                  architecture, and consistent frontend development practices.
+                </li>
+              </ul>
+            </Typography>
+          </Flex>
+        </Grid>
+
+        <Sperator />
+        <Grid>
+          <Flex>
+            <Typography type="level3" padding="3px 20px 0px 0px">
+              Hotel Management System (Front End)
+            </Typography>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              <b>December 2024 – February 2025; February 2026 – April 2026 | Team Size: 10</b>
+            </Typography>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              <b>Tech stack:</b> Angular, HTML, CSS, PostgreSQL, Java Spring Batch, VB.Net.
+            </Typography>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              <ul>
+                <li>DDeveloped core hotel operation modules, including room booking and account
+                  management, using Angular.
+                </li>
+                <li> Implemented responsive and pixel-perfect interfaces based on design specifications
+                  while resolving critical QA and production defects.
+                </li>
+              </ul>
+            </Typography>
+          </Flex>
+        </Grid>
+
+        <Sperator />
+        <Grid>
+          <Flex>
+            <Typography type="level3" padding="3px 20px 0px 0px">
               Financial Information System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Duration:</b> 04/2026 - 07/2026
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Team size:</b> 6
+              <b>April 2026 – July 2026 | Team Size: 6</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> ASP.NET Core 8, VueJS, SQL Server, Quasar Build, Vitest, Postman, SCSS.
@@ -194,96 +253,49 @@ function App() {
               <b>Productivity Tools:</b> GitHub Copilot (Used for boilerplate code generation and Vitest unit testing scaffolding).
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Key Achievements:</b>
               <ul>
-                <li>Developed and optimized core modules including Inspection Scheduling and Digital Signature, ensuring seamless cross-platform user experience using Vue.js and Quasar.</li>
-                <li>Designed scalable SQL Server database schemas and optimized complex stored procedures, improving query response times for heavy checklist reports.</li>
-                <li>Leveraged GitHub Copilot to accelerate backend service development and test-case generation, reducing feature delivery time by 20% while maintaining high code quality.</li>
-                <li>Collaborated directly with clients to analyze business requirements, translating them into robust technical solutions and ensuring successful User Acceptance Testing (UAT).</li>
+                <li>Developed and optimized core modules including Inspection Scheduling and Digital
+                  Signature using Vue.js and Quasar.
+                </li>
+                <li>Collaborated directly with clients to analyze business requirements and translate them
+                  into technical solutions.
+                </li>
+                <li>Supported User Acceptance Testing (UAT) by resolving functional issues and clarifying
+                  technical requirements.
+                </li>
+                <li>Contributed to backend service development and automated test-case generation using
+                  GitHub Copilot, reducing feature delivery time by 20%.
+                </li>
               </ul>
             </Typography>
           </Flex>
         </Grid>
+
         <Sperator />
         <Grid>
           <Flex>
             <Typography type="level3" padding="3px 20px 0px 0px">
-              Smart Medical Officer System (Front End)
+              Pubcare System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Duration:</b> 02/2026 - 04/2026
+              <b>April 2026 – July 2026 | Team Size: 5</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Team size:</b> 2
+              <b>Tech stack:</b> PHP Laravel, JavaScript, jQuery, Docker, MySQL
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Tech stack:</b> Google Apps Script (GAS), JQuery, A5:SQL
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Productivity Tools:</b> Cursor AI (Used for legacy code refactoring and rapid prototyping).
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Key Achievements:</b>
               <ul>
-                <li>Built dynamic management dashboards and analytical reporting features using Google Apps Script and jQuery, providing stakeholders with real-time insights into doctor activities.</li>
-                <li>Utilized Cursor AI to accelerate the refactoring of legacy jQuery scripts and automate Unit Test documentation, cutting down QA validation cycles.</li>
-                <li>Partnered directly with stakeholders to clarify ambiguous requirements, leading to a significant improvement in system usability and user adoption.</li>
+                <li>Developed full-stack modules for patient queuing, appointment booking, and automated
+                  notifications.
+                </li>
+                <li>Optimized frontend workflows and backend REST APIs for medical staff while
+                  implementing input validation and role-based access control.
+                </li>
               </ul>
             </Typography>
           </Flex>
         </Grid>
-        <Sperator />
-        <Grid>
-          <Flex>
-            <Typography type="level3" padding="3px 20px 0px 0px">
-              University Admission & Registration System (Front End)
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Duration:</b> 03/2025 - 01/2026
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Team size:</b> 10
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Tech stack:</b> Next.js, React.js, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest.
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Key Achievements:</b>
-              <ul>
-                <li>Architected responsive, SEO-friendly web pages using Next.js and TypeScript, delivering a seamless experience for high-traffic online exam registrations.</li>
-                <li>Streamlined global state management by implementing Redux Toolkit to handle complex, multi-step admission workflows and persistent user data across sessions.</li>
-                <li>Engineered dynamic, highly-validated forms using React Hook Form and Yup, reducing form submission errors and improving client-side data integrity.</li>
-                <li>Established a reusable UI component library that boosted development efficiency by 15% for subsequent modules.</li>
-                <li>Maintained code reliability by achieving high test coverage with Jest unit tests.</li>
-              </ul>
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid>
-          <Flex>
-            <Typography type="level3" padding="3px 20px 0px 0px">
-              Hotel Management System (Front End)
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Duration:</b> 12/2024 - 02/2025 and 02/2026 - 04/2026
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Team size:</b> 10
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Tech stack:</b> Angular, HTML, CSS, PostgreSQL, Java Spring Batch, VB.Net.
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Key Achievements:</b>
-              <ul>
-                <li>Developed core hotel operation modules (room bookings and account management) using Angular, adhering strictly to complex enterprise business logic.</li>
-                <li>Delivered pixel-perfect user interfaces based on detailed design documents, ensuring cross-browser compatibility and application stability.</li>
-                <li>Proactively resolved critical defects identified during QA and production phases, minimizing system downtime during peak booking seasons.</li>
-              </ul>
-            </Typography>
-          </Flex>
-        </Grid>
+
         <Sperator />
         <Grid>
           <Flex>
@@ -291,58 +303,25 @@ function App() {
               Knowledge Management System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Duration:</b> 10/2024 - 11/2024
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Team size:</b> 3
+              <b>October 2024 – November 2024 | Team Size: 3</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> PHP, JavaScript, JQuery, SASS, DataTableJs, MySQL
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Key Achievements:</b>
               <ul>
-                <li>Successfully modernized the legacy application by migrating the codebase from PHP 5 to PHP 8, ensuring 100% backward compatibility while enhancing overall system security.</li>
-                <li>Optimized legacy SQL queries and data rendering tables (DataTableJs), reducing page load times for administrative dashboards.</li>
-                <li>Implemented secure authentication and comprehensive CRUD operations for high-privilege administrator modules.</li>
-              </ul>
-            </Typography>
-          </Flex>
-        </Grid>
-        <Sperator />
-        <Grid>
-          <Flex>
-            <Typography type="level3" padding="3px 20px 0px 0px">
-              Banking Transaction System (Front End)
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Duration:</b> 05/2022 - 09/2024
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Team size:</b> 15
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Tech stack:</b> TypeScript, Next.js, React.js, Redux Saga, Styled Components, i18n, Jest.
-            </Typography>
-            <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Key Achievements:</b>
-              <ul>
-                <li>Developed and maintained mission-critical enterprise banking modules (deposits, loans) using Next.js and TypeScript, meeting strict performance and security standards.</li>
-                <li>Managed complex asynchronous data flows and API side-effects efficiently using Redux Saga, ensuring real-time data consistency for financial transactions.</li>
-                <li>Contributed to the internal design system by building scalable, reusable UI components, improving front-end delivery velocity across the wider team.</li>
-                <li>Drove continuous improvement by participating in code reviews, mentoring junior members, and building internal tools to optimize development workflows.</li>
+                <li> Modernized a legacy application from PHP 5 to PHP 8 while maintaining existing
+                  business functionality and improving application security.
+                </li>
+                <li>Optimized legacy SQL queries and data rendering tables (DataTableJs), reducing page
+                  load times for administrative dashboards.
+                </li>
               </ul>
             </Typography>
           </Flex>
         </Grid>
       </Section>
-
-      <Section title="HOBBIES">
-        <Typography type="level4" padding="5px 20px 0px">
-          Continuous learning, Building personal projects, Exploring AI-assisted software development, Sports.
-        </Typography>
-      </Section>
-    </Container>
+    </Container >
   );
 }
 
