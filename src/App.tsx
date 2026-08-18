@@ -41,11 +41,9 @@ function App() {
 
       <Section title="PROFESSIONAL SUMMARY">
         <Typography type="level4" padding="5px 20px 0px">
-          Full Stack Developer with 4+ years of experience building enterprise web applications, with strong expertise in frontend
-          development using <b>React.js, Next.js, TypeScript</b>, and <b>JavaScript</b>. Experienced in developing scalable UI architectures, state
-          management, API integration, automated testing, and backend services using ASP.NET Core and PHP Laravel. Worked across
-          banking, education, healthcare, financial information, and business management systems, collaborating with cross-functional
-          teams and clients to deliver production-ready solutions.
+          Full Stack Developer with 4+ years of experience building enterprise web applications, with strong expertise in frontend development using <b>React.js, Next.js, TypeScript, and JavaScript</b>.
+          Experienced in developing scalable UI architectures, state management, API integration, automated testing, and backend services using ASP.NET Core and PHP Laravel.
+          Worked across banking, education, healthcare, financial information, and business management systems, collaborating with cross-functional teams and clients to deliver production-ready solutions.
         </Typography>
       </Section>
 
