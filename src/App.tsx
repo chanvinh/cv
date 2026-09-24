@@ -41,7 +41,6 @@ function App() {
       <Section title="PROFESSIONAL SUMMARY">
         <Typography type="level4" padding="5px 20px 0px">
           Software Developer with 4+ years of experience building enterprise web applications, with strong expertise in <b>React.js, Next.js, TypeScript</b>, and <b>UI Design Systems</b>. Proven track record in optimizing Core Web Vitals, developing accessible UIs, component-driven development with Storybook, and designing effective Information Architecture.
-          Experienced in developing scalable UI architectures, state management, API integration, automated testing, and backend services using ASP.NET Core and PHP Laravel.
           Worked across banking, education, healthcare, financial information, and business management systems, collaborating with cross-functional teams and clients to deliver production-ready solutions.
         </Typography>
       </Section>
@@ -160,10 +159,11 @@ function App() {
               Banking Transaction System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>May 2022 – September 2024 | Team Size: 15</b>
+              <b>05/2022 - 03/2025 | Team Size: 15</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Tech stack:</b> TypeScript, Next.js, React.js, Redux Saga, Styled Components, i18n, Jest, Storybook.
+              <b>Tech stack:</b> TypeScript, Next.js, React.js, Redux Saga, Styled Components, Formik, Yup,
+              i18n, Jest, Storybook.
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <ul>
@@ -194,7 +194,7 @@ function App() {
               University Admission & Registration System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>March 2025 – January 2026 | Team Size: 10</b>
+              <b>03/2025 – 03/2026 | Team Size: 10</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> Next.js, React.js, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest.
@@ -224,7 +224,7 @@ function App() {
               Hotel Management System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>December 2024 – February 2025; February 2026 – April 2026 | Team Size: 10</b>
+              <b>12/2024 – 02/2025 and 02/2026 – 04/2026 | Team Size: 10</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> Angular, HTML, CSS, PostgreSQL, Java Spring Batch, VB.Net.
@@ -249,7 +249,7 @@ function App() {
               Financial Information System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>April 2026 – July 2026 | Team Size: 6</b>
+              <b>04/2026 – 09/2026 | Team Size: 6</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> ASP.NET Core 8, VueJS, SQL Server, Quasar Build, Vitest, Postman, SCSS.
@@ -283,18 +283,28 @@ function App() {
               Pubcare System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>April 2026 – July 2026 | Team Size: 5</b>
+              <b>04/2026 – 09/2026 | Team Size: 5</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>Tech stack:</b> PHP Laravel, JavaScript, jQuery, Docker, MySQL
+              <b>Tech stack:</b>  Next.js, React.js, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest. PHP
+              Laravel, Docker, MySQL.
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <ul>
                 <li>Developed full-stack modules for patient queuing, appointment booking, and automated
                   notifications.
                 </li>
+                <li>Collaborated directly with clients to analyze business requirements and translate them
+                  into technical solutions.
+                </li>
                 <li>Optimized frontend workflows and backend REST APIs for medical staff while
                   implementing input validation and role-based access control.
+                </li>
+                <li>Supported User Acceptance Testing (UAT) by resolving functional issues and clarifying
+                  technical requirements.
+                </li>
+                <li>Contributed to backend service development and automated test-case generation using
+                  GitHub Copilot, reducing feature delivery time by 20%.
                 </li>
               </ul>
             </Typography>
@@ -308,7 +318,7 @@ function App() {
               Knowledge Management System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>October 2024 – November 2024 | Team Size: 3</b>
+              <b>10/2024 – 11/2024 | Team Size: 3</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> PHP, JavaScript, JQuery, SASS, DataTableJs, MySQL
