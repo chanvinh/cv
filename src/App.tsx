@@ -159,7 +159,7 @@ function App() {
               Banking Transaction System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>05/2022 - 03/2025 | Team Size: 15</b>
+              <b>Team Size: 15</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> TypeScript, Next.js, React.js, Redux Saga, Styled Components, Formik, Yup,
@@ -194,7 +194,7 @@ function App() {
               University Admission & Registration System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>03/2025 – 03/2026 | Team Size: 10</b>
+              <b>Team Size: 10</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> Next.js, React.js, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest.
@@ -224,7 +224,7 @@ function App() {
               Hotel Management System (Front End)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>12/2024 – 02/2025 and 02/2026 – 04/2026 | Team Size: 10</b>
+              <b>Team Size: 10</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> Angular, HTML, CSS, PostgreSQL, Java Spring Batch, VB.Net.
@@ -249,7 +249,7 @@ function App() {
               Financial Information System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>04/2026 – 09/2026 | Team Size: 6</b>
+              <b>Team Size: 6</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> ASP.NET Core 8, VueJS, SQL Server, Quasar Build, Vitest, Postman, SCSS.
@@ -283,7 +283,7 @@ function App() {
               Pubcare System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>04/2026 – 09/2026 | Team Size: 5</b>
+              <b>Team Size: 5</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b>  Next.js, React.js, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest. PHP
@@ -318,7 +318,7 @@ function App() {
               Knowledge Management System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
-              <b>10/2024 – 11/2024 | Team Size: 3</b>
+              <b>Team Size: 3</b>
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> PHP, JavaScript, JQuery, SASS, DataTableJs, MySQL
