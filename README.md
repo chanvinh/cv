@@ -91,86 +91,36 @@ Ung Chan Vinh
 
 ### Position
 
-Software Developer
+Full-Stack Software Engineer
 
 ### Experience
 
-4+ years of experience in Frontend and Software Development.
+4+ years shipping production enterprise web applications across banking, healthcare, education, and financial information systems. ISB Viet Nam (IVC), 05/2022 - Present.
 
 ### Main Technologies
 
-- JavaScript
-- TypeScript
-- React.js
-- Next.js
-- Vue.js
-- React Native
-- Redux
-- Redux Toolkit
-- React Query
-- Zustand
-- React Hook Form
-- RESTful API
-- PostgreSQL
-- MySQL
-- SQL Server
-- Docker
+- Languages: JavaScript, TypeScript, HTML5, CSS3, SQL
+- Frontend: React.js, Next.js, Vue.js, Angular, React Native
+- State Management: Redux Toolkit, Redux Saga, Zustand, React Query
+- UI & Forms: Tailwind CSS, Material UI, Bootstrap, React Hook Form, Formik, Yup, Storybook, Zod
+- Backend: C#, PHP, Java, ASP.NET Core, PHP Laravel, Java Spring Boot, RESTful API, JWT
+- Database: PostgreSQL, SQL Server, MySQL, MongoDB
+- Testing: Jest, React Testing Library, Vitest
+- Tools: Git, GitLab, Docker, Postman, Figma, GitHub Copilot, Cursor AI
 
 ## Key Projects
 
-### Core Banking System (Frontend Developer)
+- **Financial Information System** (Full-stack Developer, 06/2026 - Present) - Vue.js, Quasar, C#, ASP.NET Core, SQL Server
+- **Pubcare System** (Full-stack Developer, 04/2026 - Present) - Next.js, React.js, PHP Laravel, Docker, MySQL
+- **University Admission & Registration System** (Front End Developer, 05/2025 - 04/2026) - Next.js, TypeScript, Redux Toolkit
+- **Hospitality Management System** (Full-stack Developer, 05/2024 - 05/2025) - Next.js, Java Spring Boot, PostgreSQL
+- **Banking Transaction System** (Front End Developer, 05/2022 - 05/2024) - Next.js, TypeScript, Redux Saga
 
-- Developed and maintained enterprise banking modules using React.js, Next.js, and TypeScript.
-- Built reusable UI components and integrated RESTful APIs for banking management features.
-- Implemented new functionalities, resolved production issues, and optimized application performance.
-- Wrote Jest unit tests to ensure code quality and application reliability.
-- Performed code reviews, collaborated with cross-functional teams, and mentored junior developers.
+## Certifications & Awards
 
----
-
-### University Admission & Registration System (Frontend Developer)
-
-- Developed responsive web applications using Next.js, TypeScript, and React Hook Form.
-- Built reusable React components and implemented complex business workflows for the admission process.
-- Managed application state using Redux Toolkit and integrated RESTful APIs.
-- Implemented multilingual support (i18n) and comprehensive form validation.
-- Wrote Jest unit tests and collaborated closely with designers, backend developers, and QA engineers.
-
----
-
-### Hotel Management System (Frontend Developer)
-
-- Developed hotel management modules using Angular based on business requirements.
-- Implemented user interfaces from detailed design specifications and maintained existing features.
-- Prepared technical documentation, including Detail Design and Unit Test documents.
-- Resolved production issues and collaborated with cross-functional teams throughout the development lifecycle.
-
----
-
-### Knowledge Management System (Frontend Developer)
-
-- Developed administration modules using PHP, JavaScript, jQuery, and MySQL.
-- Implemented authentication, user management, and CRUD functionalities.
-- Migrated the application from PHP 5 to PHP 8 and improved system maintainability.
-- Optimized existing features and supported ongoing maintenance activities.
-
----
-
-### Smart Medical Officer System (Frontend Developer)
-
-- Developed dashboards and reporting features using Google Apps Script and jQuery.
-- Implemented business logic for monitoring and analyzing medical activity data.
-- Prepared technical documentation and supported feature validation, testing, and deployment.
-- Worked directly with stakeholders to deliver business requirements.
-
----
-
-### Financial Information System (Full Stack Developer)
-
-- Developed full-stack enterprise applications using ASP.NET Core 8, Vue.js, and SQL Server.
-- Implemented inspection scheduling, checklist management, document upload, and digital signature features.
-- Participated in requirement analysis, system design, development, testing, and deployment.
-- Collaborated with clients to validate business requirements and ensure successful project delivery.
+- Feb 2025: Certificate B1 (Axcela)
+- Dec 2024: Certificate A2 (Axcela)
+- Project of the Year: University Admission & Registration System (2025), Banking Transaction System (2024, 2023)
 
 ## Contact
 
